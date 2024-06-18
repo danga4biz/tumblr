@@ -14,7 +14,7 @@
 /*************************************** COMMENTS var() Function ************************************************/
 :root
 {
-	--main-bg-color: yellow;
+	--main-bg-color: teal;
 	--main-txt-color: blue;
 
 	--root-BG-color: AliceBlue;
@@ -25,7 +25,7 @@
 	--root-font-weight: 400;
 	--root-TXT-font-size: large;
 
-	--outerWrapper-BG-color: Azure;
+	--outerWrapper-BG-color: yellow;
 	--outerWrapper-TXT-color: DarkRed;
 	--outerWrapper-TXT-font-family: Frutiger, Baskerville, "Segoe UI", sans-serif;
 	--outerWrapper-TXT-font: Frutiger, Baskerville, "Segoe UI", sans-serif;	
