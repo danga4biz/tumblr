@@ -1,8 +1,21 @@
-
 	
 /* ============================================================================================================ */
-/* 										SETTINGS FOR MOBILE SCREEN SIZES										*/
+/* start:								SETTINGS FOR MOBILE SCREEN SIZES										*/
 /* ============================================================================================================ */
+
+/*	mobile-screen-sizes.css contains the css code for the mobile screen layout									*/
+/*		should be in the same layer as the css code for the layout												*/
+/*		should come after the import of the css code for the layout												*/
+/*			because otherwise the centerBarMiddle is not set to full width but remains 67%						*/
+layer layout {
+
+	#centerBarMiddle
+	{
+		float: left;
+		width: 80%;
+	}
+
+}
 
 	
 /*************************************** COMMENTS centerBarLeft, centerBarRight, centerBarMiddle ****************/
@@ -154,6 +167,6 @@
 
 
 /* ============================================================================================================ */
-/* 									SETTINGS FOR MOBILE SCREEN SIZES END										*/
+/* end:	    							SETTINGS FOR MOBILE SCREEN SIZES										*/
 /* ============================================================================================================ */
 	
